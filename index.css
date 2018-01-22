@@ -1,0 +1,14 @@
+#header-name {
+    text-align: right;
+}
+.dot {
+    height: 150px;
+    width: 150px;
+    background-color: #d4e3fc;
+    border-radius: 50%;
+    display: inline-block;
+}
+.img-with-text {
+    text-align: justify;
+    width: 64px;
+}
