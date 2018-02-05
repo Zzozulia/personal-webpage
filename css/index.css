@@ -1,0 +1,32 @@
+#header-name {
+    text-align: right;
+}
+body {
+    margin: auto;
+    padding: 50px 100px 50px 100px;
+    min-width: 450px;
+    max-width: 980px;
+}
+.dot {
+    height: 150px;
+    width: 150px;
+    background-color: #d4e3fc;
+    border-radius: 50%;
+    display: inline-block;
+}
+.img-with-text {
+    text-align: justify;
+    width: 64px;
+}
+.socialnetworks{
+    height: 200px;
+    background-color: #d4e3fc
+}
+#picturesize{
+    height: 100px;
+    width:  100px;
+    margin-left: 75px
+}
+p1{
+    text-align: center
+}
