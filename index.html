@@ -7,70 +7,118 @@
     <title> Yuliya Zozulya </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"> </script>
   </head>
  <body>
      <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"> HOME </a>
+            <a class="navbar-brand" href="https://personal-website-zzozulia.c9users.io/index.html"> HOME </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#about-me">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
+        <div class="h-picture">
+            <img class="header-picture" src="pictures/header.png" alt="portrait">
+            <p class="header-text"><b>Yulia Zozulya</b></p>
+        </div>
      </header>
-
-    <img src="pictures/header.png" width="900" height="500" alt="portrait">
+     <a href="#"class="scrollToTop"></a>
+     <div>
+         <hr class="hline" id="about-me">
+        <div class="circle">About Me</div>
+        <hr class="hline">
+     </div>
     <div>
-        <hr width="200">
-          <span class="dot"><p>About me</p></span>
-        <hr width="200"> 
+        <p>Hey, there!  I'm Julia. Thank you for visiting my webpage. Let's get to know each other better and  it's my turn first:) 
+My motto of life is «Success is not accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing». I love learning languages, I work hard on becoming better in my field of study and I strongly believe that I am on the right way to success.
+</p>
     </div>
-    <div>
-        <p>Hey,I am Julia. My motto of life is «Success is not accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing». I love learning languages, I work hard on becoming better in my field of study and I strongly believe that I am on the right way to success.</p>
-    </div>
-    
-    <div class="img-with-text">
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 center-block">
+      <div class="img-with-text">
         <img src="pictures/education.png" width="64px" height="64px" alt="education picture" />
         <p>Education</p>
     </div>
-    <p>I am proud to be a studend of Ivan Franko Lviv National University. I study at the Department of foreign languages and my qualification is Linguistics and Literature.  </p> </td>
-    <br>
-        <div class="img-with-text">
+    </div>
+    <div class="col-10 center-block block-color">
+      <p>I'm proud to be a student of Lviv National University. I study at the Department of foreign languages and my qualification is Linguistics and Literature. However, I have no intention of becoming a teacher. To cut the long story short, I don't know for sure what I'm going to do in the future. They say you need to change 5 professions in order to find the right one for you. Well, I've  changed four already. You're going to read about that in the section below :)   </p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 center-block">
+      <div class="img-with-text">
            <img src="pictures/experience_icon.png" width="64px" height="64px" alt="education picture"/>
             <p>Experience</p>
         </div>
-      <p>I am proud to be a student of Ivan Franko Lviv National University. I study at the Department of foreign languages and my qualification is Linguistics and Literature.  </p> </td>
-     
-        <div class="img-with-text">
-<img src="pictures/volunteer_icon.png" width="64px" height="64px" alt="education picture" />
-            <p> Volonteering</p>
+    </div>
+    <div class="col-10 center-block block-color">
+      <p>I am proud to be a student of Ivan Franko Lviv National University. I study at the Department of foreign languages and my qualification is Linguistics and Literature.  </p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 center-block">
+      <div class="img-with-text">
+            <img src="pictures/volunteer_icon.png" width="64px" height="64px" alt="education picture" />
+            <p class=> Volonteering</p>
         </div>
-<p>I am proud to be a student of Ivan Franko Lviv National University. I study at the Department of foreign languages and my qualification is Linguistics and Literature.  </p> </td>
-
-
+    </div>
+    <div class="col-10 center-block block-color">
+      <p>I am proud to be a student of Ivan Franko Lviv National University. I study at the Department of foreign languages and my qualification is Linguistics and Literature.  </p>
+    </div>
+  </div>
+</div>
+<div class="title" id="contact"><p1><b>You can find me here</b></p1></div>
  <section class=socialnetworks>
-     <p1><b>You can find me here</b></p1>
      <img id="picturesize" src="pictures/fb-logo.png" alt="facebook-logo"/>
      <img id="picturesize" src="pictures/gm-logo.png" alt="gmail-logo"/>
      <img id="picturesize" src="pictures/insta-logo.png" alt="imstagram-logo"/>
      <img id="picturesize" src="pictures/in-logo.png" alt="linkedin-logo"/>
  </section>
- <section>
-     <p><b>Contact me</b></p>
-          
- </section>
+ <div class="title">
+     <p1><b>Contact me</b></p1>
+ </div>
+ <div class="center-block">
+    <div id="form-main">
+      <div id="form-div">
+        <form class="form" id="contactform">
+          <p class="name">
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+          </p>
+          <p class="email">
+            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+          </p>
+          <p class="text">
+            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+          </p>
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-orange"/>
+            <div class="ease"></div>
+          </div>
+          <div id="server-results"></div>
+        </form>
+      </div>
+   </div>
+</div>   
+ <footer>
+Copyright © 2018 by Yuliya Zozulya
+ </footer>
 
-
-
-
-
-<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
